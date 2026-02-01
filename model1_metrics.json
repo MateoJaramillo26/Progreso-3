@@ -1,0 +1,29 @@
+{
+  "model_name": "Modelo 1: Regresion Cuadratica Multivariable",
+  "model_type": "Polynomial Regression (degree=2)",
+  "features": [
+    "days_since_start",
+    "Temperature_mean",
+    "Wind_Velocity_mean",
+    "Precipitation_sum",
+    "month_sin",
+    "month_cos"
+  ],
+  "n_polynomial_features": 28,
+  "metrics": {
+    "train": {
+      "MSE": 9.130481278190691,
+      "RMSE": 3.021668624814887,
+      "MAE": 2.3039517709047255,
+      "R2": 0.388795968683189
+    },
+    "test": {
+      "MSE": 74.89251066874228,
+      "RMSE": 8.654045913255965,
+      "MAE": 7.518545497722606,
+      "R2": -3.28545815174715
+    }
+  },
+  "training_data_size": 6428,
+  "test_data_size": 1608
+}

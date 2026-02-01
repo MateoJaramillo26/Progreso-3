@@ -1,0 +1,36 @@
+{
+  "model_name": "Modelo 2: Gradient Descent (From Scratch)",
+  "model_type": "Quadratic Regression with GD",
+  "equation": "y = a0 + a1*x + a2*x^2",
+  "hyperparameters": {
+    "learning_rate": 0.1,
+    "n_iterations": 2000
+  },
+  "final_params": {
+    "a0": 18.975271049978605,
+    "a1": -1.4098285012373113,
+    "a2": -1.3314663918279304
+  },
+  "convergence": {
+    "initial_loss": 325.84859245624796,
+    "final_loss": 11.532657624161757,
+    "reduction_pct": 96.4607311827777
+  },
+  "metrics": {
+    "train": {
+      "MSE": 11.532657624161757,
+      "RMSE": 3.3959766819225594,
+      "MAE": 2.631750200794791,
+      "R2": 0.22799175455064036
+    },
+    "test": {
+      "MSE": 59.305626169180314,
+      "RMSE": 7.7010146194628355,
+      "MAE": 6.438725078288339,
+      "R2": -2.393553999482323
+    }
+  },
+  "training_data_size": 6428,
+  "test_data_size": 1608,
+  "training_time_seconds": 0.20541620254516602
+}
